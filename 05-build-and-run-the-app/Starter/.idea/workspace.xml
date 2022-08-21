@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45451b8-fb4a-4de4-9779-c5271f6eac37" name="Changes" comment="" />
+    <list default="true" id="c45451b8-fb4a-4de4-9779-c5271f6eac37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Bullseye/app/src/androidTest/java/com/yourcompany/bullseye/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Bullseye/app/src/androidTest/java/com/yourcompany/bullseye/ExampleInstrumentedTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="2DcCzv7eGwLA7GqbeJGi9S2nHwQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
