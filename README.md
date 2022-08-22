@@ -1,4 +1,4 @@
-# rwandroid
+# RW Android Bullseye Project
 * This is an android project  
 * All Strings in app are localized  
 * Added an imageView and added its contentDescription attribute  
