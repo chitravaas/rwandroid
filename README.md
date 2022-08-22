@@ -7,6 +7,8 @@
 * App compiles, builds, runs and it is error free  
 * Uses ViewBinding , updated build.gradle file  
 * Project has a readme  
+* Added a custom app icon
+
 
 **Supported Platforms  
 * Android Mobile
