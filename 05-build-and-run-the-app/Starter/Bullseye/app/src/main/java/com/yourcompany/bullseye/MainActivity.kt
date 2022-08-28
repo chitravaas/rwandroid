@@ -1,10 +1,12 @@
 package com.yourcompany.bullseye
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.SeekBar
 import androidx.appcompat.app.AlertDialog
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.yourcompany.bullseye.databinding.ActivityMainBinding
 import java.lang.Math.abs
 import kotlin.random.Random
@@ -16,7 +18,10 @@ class MainActivity : AppCompatActivity() {
     private var currentRound = 1
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        installSplashScreen()
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
@@ -30,6 +35,11 @@ class MainActivity : AppCompatActivity() {
         binding.startOverButton?.setOnClickListener() {
             startNewGame()
         }
+
+        binding.infoButton?.setOnClickListener{
+            navigateToAboutPage()
+        }
+
         binding.seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 sliderValue = progress
@@ -43,6 +53,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         )
+
+    }
+
+    private fun navigateToAboutPage() {
+        val intent = Intent(this,AboutActivity::class.java)
+        startActivity(intent)
 
     }
 
@@ -108,5 +124,4 @@ class MainActivity : AppCompatActivity() {
         }
         return title
     }
-
 }
