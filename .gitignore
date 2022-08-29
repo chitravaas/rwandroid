@@ -66,4 +66,3 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
-/05-build-and-run-the-app/Starter/Bullseye/app/src/main/res/layout-land/activity_main.xml
